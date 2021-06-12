@@ -1,5 +1,5 @@
 import turtle
-col = ('yellow','red', 'green','blue','white')
+col = ('yellow','red', 'green','orange','blue','white')
 
 t = turtle.Turtle()
 screen =turtle.Screen()
