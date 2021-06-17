@@ -1,4 +1,4 @@
-#code form riju_ghosh___ instagram profile
+# My try with the code form riju_ghosh___ instagram profile
 
 import turtle
 turtle.setworldcoordinates(-2000,-2000,2000,2000)
@@ -18,3 +18,7 @@ def draw_football(x,y,tilt,radius):
 for tilt in range(0,360,30):
     
     draw_football(0,0,tilt,1000) 
+    
+#end of the program
+    
+    
