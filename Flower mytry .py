@@ -5,6 +5,8 @@ turtle.setworldcoordinates(-2000,-2000,2000,2000)
 
 def draw_football(x,y,tilt,radius):
   turtle.pencolor('green')
+  turtle.width(4)
+  
   turtle.up()
   turtle.goto(x,y)
   turtle.down()
