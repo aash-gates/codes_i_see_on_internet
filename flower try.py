@@ -1,3 +1,5 @@
+#code form riju_ghosh___ instagram profile
+
 import turtle
 turtle.setworldcoordinates(-2000,-2000,2000,2000)
 
