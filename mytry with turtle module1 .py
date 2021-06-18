@@ -8,7 +8,7 @@ star = turtle.Turtle()
 
 turtle.speed ('slowest')
 
-turtle.write("Aash Gates Star", font=("Blackadder ITC","normal"))
+
 
 for i in range(5):
     star.forward(144)
