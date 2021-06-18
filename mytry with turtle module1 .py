@@ -9,7 +9,6 @@ star = turtle.Turtle()
 turtle.speed ('slowest')
 
 for i in range(5):
-    turtle.speed ('slowest')
     star.forward(144)
     
     star.right(144)
