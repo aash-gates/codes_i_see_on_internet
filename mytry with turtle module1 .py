@@ -2,7 +2,7 @@
 
 import turtle
 
-start = turtle.screen()
+start = turtle.Screen()
 
 star = turtle.Turtle()
 
