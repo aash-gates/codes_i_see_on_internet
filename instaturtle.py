@@ -14,4 +14,4 @@ turtle.end_fill()
 
 turtle.mainloop()
 
-#end of the 
+#end of the program
