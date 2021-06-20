@@ -10,10 +10,7 @@ class Designer(Turtle):
         for i in range(5):
             self.forward(64.65 * scale)
           f.backward(64.65 * scale)
-            ft(36)
-        for
-   
- 
+          
  
   
 
