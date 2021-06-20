@@ -64,12 +64,7 @@ class Designer(Turtle):
         self.forward(29 * scale)
         self.down()
         for i in range(5):
-            self.forward(18 * scale)
-            self.right(72)
-        self.pentr(18 * scale, 75, scale)
-       
- 
-
+      
 
 
  
