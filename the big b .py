@@ -124,8 +124,8 @@ def main():
     t = Designer()
     t.speed(0)
     t.hideturtle()
-    t.getscreen().delay(0)
-    t.getscreen().tracer(0)
+    
+   
  
  
   
