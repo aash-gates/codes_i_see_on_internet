@@ -114,11 +114,7 @@ class Designer(Turtle):
         self.left(146)
         self.tripolyl(side * .75, scale)
 
-    def centerpiece(self, s, a, scale):
-        self.forward(s); self.left(a)
-        if s < (7.5 * scale):
-            return
-        
+ 
 
 
 
