@@ -24,9 +24,7 @@ class Designer(Turtle):
         self.getscreen().tracer(True)
 
     def wheel(self, initpos, scale):
-        self.right(54)
-        for i in range(4):
-            self.pentpiece(initpos, scale)
+        self.ripentpiece(initpos, scale)
         self.down()
         self.left(36)
         for i in range(5):
