@@ -79,14 +79,7 @@ class Designer(Turtle):
         self.up()
         self.goto(initpos)
         self.setheading(oldh)
-        self.left(72)
-        self.getscreen().update()
-
-    def pentl(self, side, ang, scale):
-        if side < (2 * scale): return
-        self.forward(side)
-        self.left(ang)
-        self.pentl(side - (.38 * scale), ang, scale)
+        (side - (.38 * scale), ang, scale)
 
     def pentr(self, side, ang, scale):
         if side < (2 * scale): return
