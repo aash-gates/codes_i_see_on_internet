@@ -122,8 +122,8 @@ class Designer(Turtle):
 
 def main():
     t = Designer()
-    t.speed(0)
-    t.hideturtle()
+
+ 
     
    
  
