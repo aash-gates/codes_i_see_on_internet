@@ -36,10 +36,7 @@ class Designer(Turtle):
             self.down()
             self.right(72)
             self.forward(28 * scale)
-            self.up()
-            self.backward(28 * scale)
-   (2.5 * scale)
-       
+           
       
 
 
