@@ -67,17 +67,68 @@ class Designer(Turtle):
             self.forward(18 * scale)
             self.right(72)
         self.pentr(18 * scale, 75, scale)
-       
- 
+        self.up()
+        self.goto(initpos)
+        self.setheading(oldh)
+        self.forward(29 * scale)
+        self.down()
+        for i in range(5):
+            self.forward(18 * scale)
+            self.right(72)
+        self.pentl(18 * scale, 75, scale)
+        self.up()
+        self.goto(initpos)
+        self.setheading(oldh)
+        self.left(72)
+        self.getscreen().update()
 
+    def pentl(self, side, ang, scale):
+        if side < (2 * scale): return
+        self.forward(side)
+        self.left(ang)
+        self.pentl(side - (.38 * scale), ang, scale)
 
+    def pentr(self, side, ang, scale):
+        if side < (2 * scale): return
+        self.forward(side)
+        self.right(ang)
+        self.pentr(side - (.38 * scale), ang, scale)
 
+    def tripolyr(self, side, scale):
+        if side < (4 * scale): return
+        self.forward(side)
+        self.right(111)
+        self.forward(side / 1.78)
+        self.right(111)
+        self.forward(side / 1.3)
+        self.right(146)
+        self.tripolyr(side * .75, scale)
+
+    def tripolyl(self, side, scale):
+        if side < (4 * scale): return
+        self.forward(side)
+        self.left(111)
+        self.forward(side / 1.78)
+        self.left(111)
+        self.forward(side / 1.3)
+        self.left(146)
+        self.tripolyl(side * .75, scale)
+
+    def centerpiece(self, s, a, scale):
+        self.forward(s); self.left(a)
+        if s < (7.5 * scale):
+            return
+        self.centerpiece(s - (1.2 * scale), a, scale)
+
+def main():
+    t = Designer()
+    t.speed(0)
+    t.hideturtle()
+    t.getscreen().delay(0)
+    t.getscreen().tracer(0)
+    at = clock()
  
-    
-   
- 
- 
-  
+    return "runtime: %.2f sec." % (et-at)
 
 
 
