@@ -2,7 +2,7 @@ import turtle
 
 turtle.speed("fastest")
 turtle.pensize(2)
-turtle.bgcolor("blue")
+turtle.bgcolor("black")
 
 colors=["red","blue","yellow","purple"]
 
