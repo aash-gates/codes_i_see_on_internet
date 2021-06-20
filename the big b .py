@@ -120,8 +120,7 @@ class Designer(Turtle):
             return
         self.centerpiece(s - (1.2 * scale), a, scale)
 
-def main():
-    
+
 
  
     
