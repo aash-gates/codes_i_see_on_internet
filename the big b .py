@@ -69,11 +69,7 @@ class Designer(Turtle):
         self.pentr(18 * scale, 75, scale)
         self.up()
         self.goto(initpos)
-        self.setheading(oldh)
-        self.forward(29 * scale)
-       rward(side / 1.3)
-        self.right(146)
-    11)
+       
         self.forward(side / 1.78)
     
  
