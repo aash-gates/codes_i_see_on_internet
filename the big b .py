@@ -58,11 +58,7 @@ class Designer(Turtle):
         self.left(72)
         self.getscreen().update()
 
-    def pentpiece(self, initpos, scale):
-        oldh = self.heading()
-        self.up()
-        self.forward(29 * scale)
-        self.down()
+    def penwn()
         for i in range(5):
       
 
