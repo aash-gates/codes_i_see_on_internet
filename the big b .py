@@ -6,10 +6,7 @@ from time import perf_counter as clock
 class Designer(Turtle):
 
     def design(self, homePos, scale):
-        self.up()
-        for i in range(5):
-            self.forward(64.65 * scale)
-          f.backward(64.65 * scale)
+        selckward(64.65 * scale)
           
  
   
