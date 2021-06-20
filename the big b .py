@@ -127,8 +127,7 @@ def main():
     t.getscreen().delay(0)
     t.getscreen().tracer(0)
     at = clock()
-    t.design(t.position(), 2)
-    et = clock()
+ 
     return "runtime: %.2f sec." % (et-at)
 
 
