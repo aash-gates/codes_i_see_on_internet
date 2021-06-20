@@ -33,8 +33,43 @@ class Designer(Turtle):
             self.tripiece(initpos, scale)
         self.left(36)
         for i in range(5):
-           
-      
+            self.down()
+            self.right(72)
+            self.forward(28 * scale)
+            self.up()
+            self.backward(28 * scale)
+        self.left(54)
+        self.getscreen().update()
+
+    def tripiece(self, initpos, scale):
+        oldh = self.heading()
+        self.down()
+        self.backward(2.5 * scale)
+        self.tripolyr(31.5 * scale, scale)
+        self.up()
+        self.goto(initpos)
+        self.setheading(oldh)
+        self.down()
+        self.backward(2.5 * scale)
+        self.tripolyl(31.5 * scale, scale)
+        self.up()
+        self.goto(initpos)
+        self.setheading(oldh)
+        self.left(72)
+        self.getscreen().update()
+
+    def pentpiece(self, initpos, scale):
+        oldh = self.heading()
+        self.up()
+        self.forward(29 * scale)
+        self.down()
+        for i in range(5):
+            self.forward(18 * scale)
+            self.right(72)
+        self.pentr(18 * scale, 75, scale)
+       
+ 
+
 
 
  
