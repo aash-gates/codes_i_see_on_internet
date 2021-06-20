@@ -1,4 +1,5 @@
 import turtle
+
 turtle.speed("fastest")
 turtle.pensize(2)
 turtle.bgcolor("black")
