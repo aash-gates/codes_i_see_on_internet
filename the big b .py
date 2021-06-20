@@ -23,14 +23,7 @@ class Designer(Turtle):
         self.centerpiece(46 * scale, 143.4, scale)
         self()
         self.left(36)
-        for i in range(5):
-            self.trge(5):
-           
-      
-
-
- 
-    
+        for
    
  
  
