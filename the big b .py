@@ -67,11 +67,7 @@ class Designer(Turtle):
             self.forward(18 * scale)
             self.right(72)
         self.pentr(18 * scale, 75, scale)
-        self.up()
-        self.goto(initpos)
        
-        self.forward(side / 1.78)
-    
  
 
 
