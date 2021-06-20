@@ -46,10 +46,7 @@ class Designer(Turtle):
         self.down()
         self.backward(2.5 * scale)
         self.tripolyr(31.5 * scale, scale)
-        self.up()
-        self.goto(initpos)
-        self.setheading(oldh)
-        self.down()
+        sn()
         self.backward(2.5 * scale)
        
       
