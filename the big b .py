@@ -131,7 +131,5 @@ def main():
     et = clock()
     return "runtime: %.2f sec." % (et-at)
 
-if __name__ == '__main__':
-    msg = main()
-    print(msg)
-    mainloop()
+
+
