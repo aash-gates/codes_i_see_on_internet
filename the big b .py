@@ -9,10 +9,7 @@ class Designer(Turtle):
         self.up()
         for i in range(5):
             self.forward(64.65 * scale)
-            self.down()
-            self.wheel(self.position(), scale)
-            self.up()
-            self.backward(64.65 * scale)
+          f.backward(64.65 * scale)
             self.right(72)
         self.up()
         self.centerpiece(46 * scale, 143.4, scale)
