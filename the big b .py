@@ -33,9 +33,6 @@ class Designer(Turtle):
             self.tripiece(initpos, scale)
         self.left(36)
         for i in range(5):
-            self.down()
-            self.right(72)
-            self.forward(28 * scale)
            
       
 
