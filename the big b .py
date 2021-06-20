@@ -38,16 +38,7 @@ class Designer(Turtle):
             self.forward(28 * scale)
             self.up()
             self.backward(28 * scale)
-        self.left(54)
-        self.getscreen().update()
-
-    def tripiece(self, initpos, scale):
-        oldh = self.heading()
-        self.down()
-        self.backward(2.5 * scale)
-        self.tripolyr(31.5 * scale, scale)
-        sn()
-        self.backward(2.5 * scale)
+   (2.5 * scale)
        
       
 
