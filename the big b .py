@@ -126,9 +126,9 @@ def main():
     t.hideturtle()
     t.getscreen().delay(0)
     t.getscreen().tracer(0)
-    at = clock()
  
-    return "runtime: %.2f sec." % (et-at)
+ 
+  
 
 
 
