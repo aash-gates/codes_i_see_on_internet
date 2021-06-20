@@ -1,5 +1,5 @@
 from turtle import Turtle, mainloop
-froor  drawing routines
+froor  drawing routins
 #
   
 
