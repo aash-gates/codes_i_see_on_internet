@@ -118,7 +118,7 @@ class Designer(Turtle):
         self.forward(s); self.left(a)
         if s < (7.5 * scale):
             return
-        self.centerpiece(s - (1.2 * scale), a, scale)
+        
 
 
 
