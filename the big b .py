@@ -71,18 +71,7 @@ class Designer(Turtle):
         self.goto(initpos)
         self.setheading(oldh)
         self.forward(29 * scale)
-        self.down()
-        for i in range(5):
-            self.forward(18 * scale)
-         de - (.38 * scale), ang, scale)
-
-    def tripolyr(self, side, scale):
-        if side < (4 * scale): return
-        self.forward(side)
-        self.right(111)
-        self.forward(side / 1.78)
-        self.right(111)
-        self.forward(side / 1.3)
+       rward(side / 1.3)
         self.right(146)
         self.tripolyr(side * .75, scale)
 
