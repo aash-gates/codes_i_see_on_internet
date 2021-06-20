@@ -73,12 +73,7 @@ class Designer(Turtle):
         self.forward(29 * scale)
        rward(side / 1.3)
         self.right(146)
-        self.tripolyr(side * .75, scale)
-
-    def tripolyl(self, side, scale):
-        if side < (4 * scale): return
-        self.forward(side)
-        self.left(111)
+    11)
         self.forward(side / 1.78)
     
  
