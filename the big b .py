@@ -74,18 +74,7 @@ class Designer(Turtle):
         self.down()
         for i in range(5):
             self.forward(18 * scale)
-            self.right(72)
-        self.pentl(18 * scale, 75, scale)
-        self.up()
-        self.goto(initpos)
-        self.setheading(oldh)
-        (side - (.38 * scale), ang, scale)
-
-    def pentr(self, side, ang, scale):
-        if side < (2 * scale): return
-        self.forward(side)
-        self.right(ang)
-        self.pentr(side - (.38 * scale), ang, scale)
+         de - (.38 * scale), ang, scale)
 
     def tripolyr(self, side, scale):
         if side < (4 * scale): return
