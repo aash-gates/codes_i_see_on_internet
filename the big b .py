@@ -109,9 +109,7 @@ class Designer(Turtle):
         self.forward(side)
         self.left(111)
         self.forward(side / 1.78)
-        self.left(111)
-        self.forward(side / 1.3)
-       
+    
  
 
 
