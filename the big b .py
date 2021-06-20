@@ -57,9 +57,7 @@ class Designer(Turtle):
         self.setheading(oldh)
         self.left(72)
         self.getscreen().update()
-
-    def penwn()
-        for i in range(5):
+nge(5):
       
 
 
