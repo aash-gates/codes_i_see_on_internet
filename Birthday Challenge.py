@@ -20,6 +20,7 @@ dob = date(dobYear,dobMonth,dobDay)
 numberOfDays = (today - dob).days 
 
 #Convert this into whole years to display the age
+age = numberOfDays // 365
 print("You are " + str(age) + " years old.")
 
 #Retrieve the day of the week (Monday to Sunday) corresponding to the DoB.
