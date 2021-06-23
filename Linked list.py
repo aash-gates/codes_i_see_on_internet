@@ -1,1 +1,0 @@
-        node = self.node
