@@ -26,6 +26,7 @@ class LinkedList:
         node = self.node
         while node.next:
             node = node.next
+        node.next = newNode
 
     def insertInBeetween(self, nextval, data):
         start = self.node
