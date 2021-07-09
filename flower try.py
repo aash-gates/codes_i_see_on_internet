@@ -14,7 +14,7 @@ def draw_football(x,y,tilt,radius):
   turtle.circle(radius,90)
 
 for tilt in range(0,360,30):
-    
-    draw_football(0,0,tilt,1000) 
 
-#end of the program
+    draw_football(0,0,tilt,1000)
+
+#end of the programB
