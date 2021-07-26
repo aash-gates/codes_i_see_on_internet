@@ -46,3 +46,4 @@ def btnclick(buttons):
         flag += 1
 
     elif buttons["text"] == " " and bclick == False:
+        buttons["text"] = "O"
