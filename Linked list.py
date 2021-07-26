@@ -29,3 +29,4 @@ class LinkedList:
         node.next = newNode
 
     def insertInBeetween(self, nextval, data):
+        start = self.node
