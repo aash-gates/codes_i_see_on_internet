@@ -399,3 +399,12 @@ class Pikachu:
         t.left(110)
         t.fd(30)
         t.right(110)
+        t.fd(32)
+
+        t.right(106)
+        t.circle(100, 25)
+        t.right(15)
+        t.circle(-300, 2)
+        #print(t.pos())
+        t.seth(30)
+        t.fd(40)
