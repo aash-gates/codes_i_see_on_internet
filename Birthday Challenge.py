@@ -40,3 +40,4 @@ elif  today == nextBirthday:
   print("Today is your birthday! Happy Birthday!")
 else:
   nextBirthday = date(thisYear+1,dobMonth,dobDay)
+  gap = (nextBirthday - today).days
