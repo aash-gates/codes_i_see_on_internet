@@ -17,3 +17,4 @@ class LinkedList:
         newnode.next = self.node
         # make the new node as the first node
         self.node = newnode
+
