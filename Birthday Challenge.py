@@ -16,3 +16,4 @@ dobMonth = int(dob_data[1])
 dobYear = int(dob_data[2])
 dob = date(dobYear,dobMonth,dobDay)
 
+#Calculate number of days lived
