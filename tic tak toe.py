@@ -38,3 +38,4 @@ def btnclick(buttons):
     global bclick, flag, player1_name, player2_name, playerb, playera
 
     if buttons["text"] == " " and bclick==True:
+        buttons["text"] = "X"
