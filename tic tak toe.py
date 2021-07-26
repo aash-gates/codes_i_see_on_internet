@@ -48,3 +48,4 @@ def btnclick(buttons):
     elif buttons["text"] == " " and bclick == False:
         buttons["text"] = "O"
         bclick = True
+        checkForWin()
