@@ -110,3 +110,14 @@ class Pikachu:
         t.begin_fill()
         t.seth(145)
         t.circle(40, 86)
+        t.penup()
+        for pos in reversed(l1[:20]):
+            t.goto(pos[0], pos[1] + 1.5)
+        for pos in l2[:20]:
+            t.goto(pos[0], pos[1] + 1.5)
+        t.pendown()
+        t.end_fill()
+
+        # Nose
+        self.noTrace_goto(-17, 94)
+        t.seth(8)
