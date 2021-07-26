@@ -53,3 +53,4 @@ class LinkedList:
             if start.data == Removekey:
                 break
             prev = start
+            start = start.next
