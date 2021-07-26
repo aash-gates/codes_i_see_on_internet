@@ -378,3 +378,13 @@ class Pikachu:
         t.circle(-4, 180)
         t.fd(3)
 
+        # Tail
+        self.noTrace_goto(168, 134)
+        t.fillcolor('#F6D02F')
+        t.begin_fill()
+        t.seth(40)
+        t.fd(200)
+        t.seth(-80)
+        t.fd(150)
+        t.seth(210)
+        t.fd(150)
