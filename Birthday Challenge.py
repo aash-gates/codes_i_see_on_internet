@@ -20,3 +20,4 @@ dob = date(dobYear,dobMonth,dobDay)
 numberOfDays = (today - dob).days 
 
 #Convert this into whole years to display the age
+age = numberOfDays // 365
