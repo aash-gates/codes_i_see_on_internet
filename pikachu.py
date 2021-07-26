@@ -192,3 +192,13 @@ class Pikachu:
         t.seth(190)
         t.circle(300, 17)
         t.end_fill()
+
+    def body(self):
+        t = self.t
+
+        t.fillcolor('#F6D02F')
+        t.begin_fill()
+        # Right face contour
+        t.penup()
+        t.circle(130, 40)
+        t.pendown()
