@@ -55,3 +55,4 @@ def btnclick(buttons):
 
 
 def checkForWin():
+    if(button1['text']=='X' and button2['text']=='X' and button3['text']=='X' or
