@@ -7,3 +7,4 @@ class LinkedList:
         node = self.node
         while node is not None:
             l.append(node.data)
+            node = node.next
