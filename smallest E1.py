@@ -6,3 +6,9 @@ L.sort()
 
 L
 [10,20,30,40,50]
+L[0]
+
+print(L)
+
+
+#those bastards lied to me 
