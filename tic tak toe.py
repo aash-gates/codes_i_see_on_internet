@@ -81,3 +81,4 @@ def checkForWin():
         tkinter.messagebox.showinfo("Tic-Tac-Toe", playerb)
 
 
+label = tk.Label(root, text="player 1:", font='Times 20 bold', bg='white', fg='black', height=1, width=8)
