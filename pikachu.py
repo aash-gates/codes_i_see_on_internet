@@ -458,3 +458,14 @@ class Pikachu:
         t.end_fill()
 
         # Hat, Eye, Mouth, Cheek
+        self.cap(-134.07, 147.81)
+        self.mouth(-5, 25)
+        self.leftCheek(-126, 32)
+        self.rightCheek(107, 63)
+        self.colorLeftEar(-250, 100)
+        self.colorRightEar(140, 270)
+        self.leftEye(-85, 90)
+        self.rightEye(50, 110)
+        t.hideturtle()
+
+    def cap(self, x, y):
