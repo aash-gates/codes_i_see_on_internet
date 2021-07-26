@@ -528,3 +528,13 @@ class Pikachu:
     def start(self):
         self.body()
 
+
+def main():
+    print('Painting the Pikachu... ')
+    wn = turtle.Screen()
+    wn.setup(width=600, height=800)
+    pikachu = Pikachu()
+    pikachu.start()
+    turtle.mainloop()
+
+
