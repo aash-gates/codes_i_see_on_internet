@@ -18,3 +18,4 @@ class LinkedList:
         # make the new node as the first node
         self.node = newnode
 
+    def insertAtEnd(self, data):
