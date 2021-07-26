@@ -121,3 +121,14 @@ class Pikachu:
         # Nose
         self.noTrace_goto(-17, 94)
         t.seth(8)
+        t.fd(4)
+        t.back(8)
+
+    # Red Cheeks
+    def leftCheek(self, x, y):
+        turtle.tracer(False)
+        t = self.t
+        self.noTrace_goto(x, y)
+        t.seth(300)
+        t.fillcolor('#DD4D28')
+        t.begin_fill()
