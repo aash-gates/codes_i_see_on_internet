@@ -32,3 +32,4 @@ print("You have spent " + str(numberOfDays) + " days on Earth.")
 #Calculating the number of days until next birthday
 thisYear = today.year
 
+nextBirthday = date(thisYear,dobMonth,dobDay)
