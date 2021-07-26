@@ -132,3 +132,13 @@ class Pikachu:
         t.seth(300)
         t.fillcolor('#DD4D28')
         t.begin_fill()
+        a = 2.3
+        for i in range(120):
+            if 0 <= i < 30 or 60 <= i < 90:
+                a -= 0.05
+                t.lt(3)
+                t.fd(a)
+            else:
+                a += 0.05
+                t.lt(3)
+                t.fd(a)
