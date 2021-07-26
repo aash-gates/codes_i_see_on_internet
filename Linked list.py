@@ -38,3 +38,4 @@ class LinkedList:
                 start.next = newNode
                 return
             else:
+                start = start.next
