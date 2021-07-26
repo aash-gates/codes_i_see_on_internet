@@ -8,3 +8,4 @@ class LinkedList:
         while node is not None:
             l.append(node.data)
             node = node.next
+        return l
