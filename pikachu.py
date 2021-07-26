@@ -348,3 +348,13 @@ class Pikachu:
         t.seth(90)
 
         t.fd(10)
+        t.seth(90)
+        t.circle(5, 180)
+        t.fd(10)
+
+        t.left(180)
+        t.left(20)
+        t.fd(10)
+        t.circle(5, 170)
+        t.fd(10)
+        t.seth(240)
