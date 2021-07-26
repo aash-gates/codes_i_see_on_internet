@@ -43,3 +43,4 @@ class LinkedList:
     def removeNode(self, Removekey):
         start = self.node
 
+        if (start is not None):
