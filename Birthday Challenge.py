@@ -33,3 +33,4 @@ print("You have spent " + str(numberOfDays) + " days on Earth.")
 thisYear = today.year
 
 nextBirthday = date(thisYear,dobMonth,dobDay)
+if today<nextBirthday:
