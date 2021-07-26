@@ -29,3 +29,13 @@ class Pikachu:
         t.begin_fill()
         t.circle(22)
         t.end_fill()
+
+        self.noTrace_goto(x, y + 10)
+        t.fillcolor('#000000')
+        t.begin_fill()
+        t.circle(10)
+        t.end_fill()
+
+        self.noTrace_goto(x + 6, y + 22)
+        t.fillcolor('#ffffff')
+        t.begin_fill()
