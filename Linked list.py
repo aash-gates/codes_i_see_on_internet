@@ -69,3 +69,4 @@ class Node:
 
 
 llist = LinkedList()
+llist.node = Node(1)
