@@ -65,3 +65,4 @@ class Node:
         self.next = None
 
     def getNext(self):
+        return self.next
