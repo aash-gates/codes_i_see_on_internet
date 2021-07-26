@@ -66,3 +66,4 @@ def checkForWin():
         disableButton()
         tkinter.messagebox.showinfo("Tic-Tac-Toe", playera)
 
+    elif flag == 8:
