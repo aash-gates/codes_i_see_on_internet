@@ -4,3 +4,4 @@ class LinkedList:
 
     def listPrint(self):
         l = []
+        while node is not None:
