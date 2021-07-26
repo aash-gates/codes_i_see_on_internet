@@ -308,3 +308,13 @@ class Pikachu:
         t.circle(100, 20)
         t.left(180)
         t.circle(-100, 20)
+
+        t.seth(0)
+        t.circle(10, 50)
+
+        t.seth(110)
+        t.circle(100, 20)
+        t.left(180)
+        t.circle(-100, 20)
+
+        t.seth(30)
