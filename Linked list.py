@@ -76,3 +76,4 @@ new2 = Node(2)
 new3 = Node(4)
 
 llist.node.next = new
+new.next = new1
