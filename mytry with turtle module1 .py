@@ -18,3 +18,4 @@ turtle.speed ('slowest')
 
 
 for i in range(5):
+    star.forward(144)
