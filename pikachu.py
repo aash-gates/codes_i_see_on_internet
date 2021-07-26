@@ -338,3 +338,13 @@ class Pikachu:
         # Right hand
         t.seth(43)
         t.circle(200, 60)
+
+        t.right(10)
+        t.fd(10)
+
+        t.circle(5, 160)
+        t.seth(90)
+        t.circle(5, 160)
+        t.seth(90)
+
+        t.fd(10)
