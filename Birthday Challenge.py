@@ -17,3 +17,4 @@ dobYear = int(dob_data[2])
 dob = date(dobYear,dobMonth,dobDay)
 
 #Calculate number of days lived
+numberOfDays = (today - dob).days 
