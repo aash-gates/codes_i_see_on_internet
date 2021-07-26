@@ -25,3 +25,4 @@ class LinkedList:
             return
         node = self.node
         while node.next:
+            node = node.next
