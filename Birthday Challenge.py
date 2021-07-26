@@ -19,3 +19,4 @@ dob = date(dobYear,dobMonth,dobDay)
 #Calculate number of days lived
 numberOfDays = (today - dob).days 
 
+#Convert this into whole years to display the age
