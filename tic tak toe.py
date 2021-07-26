@@ -83,3 +83,4 @@ def checkForWin():
 
 label = tk.Label(root, text="player 1:", font='Times 20 bold', bg='white', fg='black', height=1, width=8)
 label.grid(row=1, column=0)
+
