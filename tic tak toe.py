@@ -64,3 +64,4 @@ def checkForWin():
             button1['text'] == 'X' and button5['text'] == 'X' and button9['text']=='X' or
             button3['text'] == 'X' and button5['text'] == 'X' and button7['text']=='X'):
         disableButton()
+        tkinter.messagebox.showinfo("Tic-Tac-Toe", playera)
