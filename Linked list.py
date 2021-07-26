@@ -35,3 +35,4 @@ class LinkedList:
                 print("Match Found")
                 newNode = Node(data)
                 newNode.next = start.next
+                start.next = newNode
