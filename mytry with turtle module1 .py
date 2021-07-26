@@ -3,3 +3,4 @@
 import turtle
 
 
+turtle.write("Aash Gates Star", font=("Blackadder ITC",))
