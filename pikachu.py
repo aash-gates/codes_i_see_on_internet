@@ -89,3 +89,13 @@ class Pikachu:
             a += 0.1
             t.left(3)
             t.fd(a)
+            l2.append(t.position())
+
+        # Upper Lip
+        t.seth(10)
+        t.circle(50, 15)
+        t.left(180)
+        t.circle(-50, 15)
+
+        t.circle(-50, 40)
+        t.seth(233)
