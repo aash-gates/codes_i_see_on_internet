@@ -40,3 +40,4 @@ class LinkedList:
             else:
                 start = start.next
 
+    def removeNode(self, Removekey):
