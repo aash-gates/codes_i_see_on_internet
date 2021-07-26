@@ -34,3 +34,4 @@ class LinkedList:
             if start.data == nextval:
                 print("Match Found")
                 newNode = Node(data)
+                newNode.next = start.next
