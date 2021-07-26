@@ -22,3 +22,4 @@ class LinkedList:
         newNode = Node(data)
         if self.node is None:
             self.node = newNode
+            return
