@@ -39,3 +39,13 @@ class Pikachu:
         self.noTrace_goto(x + 6, y + 22)
         t.fillcolor('#ffffff')
         t.begin_fill()
+        t.circle(10)
+        t.end_fill()
+
+    def rightEye(self, x, y):
+        self.noTrace_goto(x, y)
+        t = self.t
+        t.seth(0)
+        t.fillcolor('#333333')
+        t.begin_fill()
+        t.circle(22)
