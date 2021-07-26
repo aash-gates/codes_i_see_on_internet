@@ -49,3 +49,4 @@ class LinkedList:
                 start = None
                 return
 
+        while (start is not None):
