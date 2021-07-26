@@ -42,3 +42,4 @@ def btnclick(buttons):
         bclick = False
         playerb = p2.get() + " Wins!"
         playera = p1.get() + " Wins!"
+        checkForWin()
