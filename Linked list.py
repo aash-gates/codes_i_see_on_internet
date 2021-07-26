@@ -27,3 +27,4 @@ class LinkedList:
         while node.next:
             node = node.next
         node.next = newNode
+
