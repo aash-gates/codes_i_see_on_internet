@@ -37,3 +37,4 @@ if today<nextBirthday:
   gap = (nextBirthday - today).days
   print("Your birhday is in " + str(gap) + " days.")
 elif  today == nextBirthday:
+  print("Today is your birthday! Happy Birthday!")
