@@ -27,3 +27,4 @@ def disableButton():
     button2.configure(state="disabled")
     button3.configure(state="disabled")
     button4.configure(state="disabled")
+    button5.configure(state="disabled")
