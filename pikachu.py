@@ -162,3 +162,13 @@ class Pikachu:
                 a += 0.05
                 t.lt(3)
                 t.fd(a)
+        t.end_fill()
+        turtle.tracer(True)
+
+    def colorLeftEar(self, x, y):
+        t = self.t
+        self.noTrace_goto(x, y)
+        t.fillcolor('#000000')
+        t.begin_fill()
+        t.seth(330)
+        t.circle(100, 35)
