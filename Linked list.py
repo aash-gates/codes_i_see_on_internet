@@ -47,3 +47,4 @@ class LinkedList:
             if (start.data == Removekey):
                 self.node = start.next
                 start = None
+                return
