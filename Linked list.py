@@ -67,4 +67,5 @@ class Node:
     def getNext(self):
         return self.next
 
+
 llist = LinkedList()
