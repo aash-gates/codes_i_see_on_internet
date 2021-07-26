@@ -212,3 +212,13 @@ class Pikachu:
         t.circle(30, 50)
         t.seth(190)
         t.circle(300, 36)
+
+        # Upper profile
+        t.seth(150)
+        t.circle(150, 70)
+
+        # Left ear
+        t.seth(200)
+        t.circle(300, 40)
+        t.circle(30, 50)
+        t.seth(20)
