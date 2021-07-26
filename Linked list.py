@@ -9,3 +9,4 @@ class LinkedList:
             l.append(node.data)
             node = node.next
         return l
+
