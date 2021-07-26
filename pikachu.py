@@ -469,3 +469,12 @@ class Pikachu:
         t.hideturtle()
 
     def cap(self, x, y):
+        self.noTrace_goto(x, y)
+        t = self.t
+        t.fillcolor('#CD0000')
+        t.begin_fill()
+        t.seth(200)
+        t.circle(400, 7)
+        t.left(180)
+        t.circle(-400, 30)
+        t.circle(30, 60)
