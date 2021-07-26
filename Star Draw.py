@@ -1,6 +1,8 @@
+import turtle
 col = ('yellow','red', 'green','orange','blue','white')
 
 t = turtle.Turtle()
+screen =turtle.Screen()
 screen.bgcolor('black')
 t.speed(30)
 
