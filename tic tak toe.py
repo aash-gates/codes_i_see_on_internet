@@ -41,3 +41,4 @@ def btnclick(buttons):
         buttons["text"] = "X"
         bclick = False
         playerb = p2.get() + " Wins!"
+        playera = p1.get() + " Wins!"
