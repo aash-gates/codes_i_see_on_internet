@@ -5,3 +5,4 @@ until their next birthday.'''
 from datetime import *
 
 #Get Today's Date
+today = date.today()
