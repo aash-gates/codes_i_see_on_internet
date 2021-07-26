@@ -11,3 +11,4 @@ class LinkedList:
         return l
 
     def insertAtBeginning(self, data):
+        # create a newnode with data
