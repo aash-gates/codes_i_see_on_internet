@@ -5,3 +5,4 @@ root = tk.Tk()
 root.title("Tic-Tac-Toe")
 
 playera = tk.StringVar()
+playerb = tk.StringVar()
