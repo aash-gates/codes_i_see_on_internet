@@ -107,3 +107,4 @@ button6 = tk.Button(root, text=" ", font="Times 20 bold", bg="grey", fg="white",
 button6.grid(row=4, column=2)
 
 button7 = tk.Button(root, text=" ", font="Times 20 bold", bg="grey", fg="white", height=4, width=8, command=lambda: btnclick(button7))
+button7.grid(row=5, column=0)
