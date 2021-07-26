@@ -50,3 +50,4 @@ class LinkedList:
                 return
 
         while (start is not None):
+            if start.data == Removekey:
