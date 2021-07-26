@@ -17,3 +17,4 @@ player2_name.grid(row=2, column=1, columnspan=8)
 
 
 bclick = True
+flag = 0
