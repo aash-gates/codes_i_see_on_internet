@@ -26,3 +26,4 @@ print("You are " + str(age) + " years old.")
 #Retrieve the day of the week (Monday to Sunday) corresponding to the DoB.
 day = dob.strftime("%A")
 print("You were born on a " + day + ".")
+
