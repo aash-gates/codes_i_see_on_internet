@@ -142,3 +142,13 @@ class Pikachu:
                 a += 0.05
                 t.lt(3)
                 t.fd(a)
+        t.end_fill()
+        turtle.tracer(True)
+
+    def rightCheek(self, x, y):
+        t = self.t
+        turtle.tracer(False)
+        self.noTrace_goto(x, y)
+        t.seth(60)
+        t.fillcolor('#DD4D28')
+        t.begin_fill()
