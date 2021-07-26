@@ -48,3 +48,4 @@ class LinkedList:
                 self.node = start.next
                 start = None
                 return
+
