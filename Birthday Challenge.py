@@ -10,4 +10,5 @@ print("Today: " +  today.strftime('%A %d, %b %Y'))
 
 dob_str = input("What is your Date of Birth? dd/mm/yyyy \n\n")
 #Convert user input into a date
+dob_data = dob_str.split("/")
 dobDay = int(dob_data[0])
