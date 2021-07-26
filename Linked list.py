@@ -16,3 +16,4 @@ class LinkedList:
         # insert the first node of current Linkedlist in the node.next
         newnode.next = self.node
         # make the new node as the first node
+        self.node = newnode
