@@ -67,3 +67,4 @@ def checkForWin():
         tkinter.messagebox.showinfo("Tic-Tac-Toe", playera)
 
     elif flag == 8:
+        tkinter.messagebox.showinfo("Tic-Tac-Toe", "It is a tie")
