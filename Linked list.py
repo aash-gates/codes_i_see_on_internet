@@ -64,3 +64,4 @@ class Node:
         self.data = data
         self.next = None
 
+    def getNext(self):
