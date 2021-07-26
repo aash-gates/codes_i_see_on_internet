@@ -58,3 +58,4 @@ def checkForWin():
     if(button1['text']=='X' and button2['text']=='X' and button3['text']=='X' or
             button4['text']=='X' and button5['text']=='X' and button6['text']=='X' or
             button7['text']=='X' and button8['text']=='X' and button9['text']=='X' or
+            button1['text']=='X' and button4['text']=='X' and button7['text']=='X' or
