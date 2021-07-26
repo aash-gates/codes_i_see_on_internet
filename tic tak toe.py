@@ -35,3 +35,4 @@ def disableButton():
 
 
 def btnclick(buttons):
+    global bclick, flag, player1_name, player2_name, playerb, playera
