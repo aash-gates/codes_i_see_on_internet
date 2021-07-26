@@ -518,3 +518,13 @@ class Pikachu:
         t.circle(30, 180)
         t.seth(190)
         t.fd(15)
+        t.seth(100)
+        t.circle(-45, 180)
+        t.right(90)
+        t.fd(15)
+        t.end_fill()
+        t.pencolor('#000000')
+
+    def start(self):
+        self.body()
+
