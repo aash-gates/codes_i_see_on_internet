@@ -222,3 +222,13 @@ class Pikachu:
         t.circle(300, 40)
         t.circle(30, 50)
         t.seth(20)
+        t.circle(300, 35)
+        #print(t.pos())
+
+        # Left face contour
+        t.seth(240)
+        t.circle(105, 95)
+        t.left(180)
+        t.circle(-105, 5)
+
+        # Left hand
