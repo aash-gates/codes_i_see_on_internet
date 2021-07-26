@@ -11,3 +11,4 @@ p2 = tk.StringVar()
 
 
 player1_name = tk.Entry(root, textvariable=p1, bd=5)
+player1_name.grid(row=1, column=1, columnspan=8)
