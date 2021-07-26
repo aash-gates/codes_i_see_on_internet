@@ -508,3 +508,13 @@ class Pikachu:
         t.end_fill()
 
         self.noTrace_goto(-58, 270)
+        t.pencolor('#228B22')
+        t.dot(35)
+
+        self.noTrace_goto(-30, 280)
+        t.fillcolor('#228B22')
+        t.begin_fill()
+        t.seth(100)
+        t.circle(30, 180)
+        t.seth(190)
+        t.fd(15)
