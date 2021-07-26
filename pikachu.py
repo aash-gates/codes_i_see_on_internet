@@ -79,3 +79,13 @@ class Pikachu:
             a += 0.1
             t.right(3)
             t.fd(a)
+            l1.append(t.position())
+
+        self.noTrace_goto(x, y)
+
+        t.seth(10)
+        a = 0.7
+        for i in range(28):
+            a += 0.1
+            t.left(3)
+            t.fd(a)
