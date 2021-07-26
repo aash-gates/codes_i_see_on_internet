@@ -448,3 +448,13 @@ class Pikachu:
         t.right(110)
         t.fd(80)
         t.left(110)
+        t.fd(30)
+        t.right(110)
+        t.fd(32)
+        t.right(106)
+        t.circle(100, 25)
+        t.right(15)
+        t.circle(-300, 2)
+        t.end_fill()
+
+        # Hat, Eye, Mouth, Cheek
