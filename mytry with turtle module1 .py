@@ -13,3 +13,4 @@ start = turtle.Screen()
 
 star = turtle.Turtle()
 
+turtle.speed ('slowest')
