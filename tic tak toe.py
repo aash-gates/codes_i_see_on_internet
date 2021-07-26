@@ -50,3 +50,4 @@ def btnclick(buttons):
         bclick = True
         checkForWin()
         flag += 1
+    else:
