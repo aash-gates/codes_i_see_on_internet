@@ -34,3 +34,4 @@ def disableButton():
     button9.configure(state="disabled")
 
 
+def btnclick(buttons):
