@@ -51,3 +51,4 @@ def btnclick(buttons):
         checkForWin()
         flag += 1
     else:
+        tkinter.messagebox.showinfo("Tic-Tac-Toe", "Button already clicked")
