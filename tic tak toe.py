@@ -16,3 +16,4 @@ player2_name = tk.Entry(root, textvariable=p2, bd=5)
 player2_name.grid(row=2, column=1, columnspan=8)
 
 
+bclick = True
