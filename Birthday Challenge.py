@@ -35,3 +35,4 @@ thisYear = today.year
 nextBirthday = date(thisYear,dobMonth,dobDay)
 if today<nextBirthday:
   gap = (nextBirthday - today).days
+  print("Your birhday is in " + str(gap) + " days.")
