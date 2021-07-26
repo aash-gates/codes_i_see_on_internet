@@ -41,3 +41,4 @@ elif  today == nextBirthday:
 else:
   nextBirthday = date(thisYear+1,dobMonth,dobDay)
   gap = (nextBirthday - today).days
+  print("Your birthday is in " + str(gap) + " days.")
