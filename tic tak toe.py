@@ -70,3 +70,4 @@ def checkForWin():
         tkinter.messagebox.showinfo("Tic-Tac-Toe", "It is a tie")
 
     elif(button1['text']=='O' and button2['text']=='O' and button3['text']=='O' or
+            button4['text']=='O' and button5['text']=='O' and button6['text']=='O' or
