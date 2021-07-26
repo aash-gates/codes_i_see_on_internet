@@ -6,3 +6,4 @@ from datetime import *
 
 #Get Today's Date
 today = date.today()
+print("Today: " +  today.strftime('%A %d, %b %Y'))
