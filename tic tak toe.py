@@ -49,3 +49,4 @@ def btnclick(buttons):
         buttons["text"] = "O"
         bclick = True
         checkForWin()
+        flag += 1
