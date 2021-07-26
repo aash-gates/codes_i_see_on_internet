@@ -86,3 +86,4 @@ label.grid(row=1, column=0)
 
 
 label = tk.Label(root, text="player 2:", font='Times 20 bold', bg='white', fg='black', height=1, width=8)
+label.grid(row=2, column=0)
