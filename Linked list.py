@@ -59,3 +59,4 @@ class LinkedList:
         start = None
 
 
+class Node:
