@@ -202,3 +202,13 @@ class Pikachu:
         t.penup()
         t.circle(130, 40)
         t.pendown()
+        t.circle(100, 105)
+        t.left(180)
+        t.circle(-100, 5)
+
+        # Right ear
+        t.seth(20)
+        t.circle(300, 30)
+        t.circle(30, 50)
+        t.seth(190)
+        t.circle(300, 36)
