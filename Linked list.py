@@ -81,3 +81,4 @@ new1.next = new2
 new2.next = new3
 
 print(llist.listPrint())
+llist.removeNode(2)
