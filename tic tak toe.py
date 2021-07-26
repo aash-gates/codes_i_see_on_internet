@@ -94,3 +94,4 @@ button1.grid(row=3, column=0)
 button2 = tk.Button(root, text=" ", font="Times 20 bold", bg="grey", fg="white", height=4, width=8, command=lambda: btnclick(button2))
 button2.grid(row=3, column=1)
 
+button3 = tk.Button(root, text=" ", font="Times 20 bold", bg="grey", fg="white", height=4, width=8, command=lambda: btnclick(button3))
