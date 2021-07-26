@@ -57,3 +57,4 @@ class LinkedList:
 
         prev.next = start.next
         start = None
+
