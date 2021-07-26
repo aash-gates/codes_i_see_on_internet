@@ -44,3 +44,4 @@ class LinkedList:
         start = self.node
 
         if (start is not None):
+            if (start.data == Removekey):
