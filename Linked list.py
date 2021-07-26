@@ -71,3 +71,4 @@ class Node:
 llist = LinkedList()
 llist.node = Node(1)
 new = Node(2)
+new1 = Node(3)
