@@ -89,3 +89,4 @@ label = tk.Label(root, text="player 2:", font='Times 20 bold', bg='white', fg='b
 label.grid(row=2, column=0)
 
 button1 = tk.Button(root, text=" ", font="Times 20 bold", bg="grey", fg="white", height=4, width=8, command=lambda: btnclick(button1))
+button1.grid(row=3, column=0)
