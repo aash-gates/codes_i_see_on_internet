@@ -13,3 +13,4 @@ class LinkedList:
     def insertAtBeginning(self, data):
         # create a newnode with data
         newnode = Node(data)
+        # insert the first node of current Linkedlist in the node.next
