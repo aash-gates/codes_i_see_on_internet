@@ -69,3 +69,13 @@ class Pikachu:
 
         t.fillcolor('#88141D')
         t.begin_fill()
+
+        # Lower Lip
+        l1 = []
+        l2 = []
+        t.seth(190)
+        a = 0.7
+        for i in range(28):
+            a += 0.1
+            t.right(3)
+            t.fd(a)
