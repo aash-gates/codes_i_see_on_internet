@@ -99,3 +99,14 @@ class Pikachu:
 
         t.circle(-50, 40)
         t.seth(233)
+        t.circle(-50, 55)
+        t.left(180)
+        t.circle(50, 12.1)
+        t.end_fill()
+
+        # Tongue
+        self.noTrace_goto(17, 54)
+        t.fillcolor('#DD716F')
+        t.begin_fill()
+        t.seth(145)
+        t.circle(40, 86)
