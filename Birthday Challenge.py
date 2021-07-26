@@ -28,3 +28,4 @@ day = dob.strftime("%A")
 print("You were born on a " + day + ".")
 
 print("You have spent " + str(numberOfDays) + " days on Earth.")
+
