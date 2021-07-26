@@ -40,3 +40,4 @@ def btnclick(buttons):
     if buttons["text"] == " " and bclick==True:
         buttons["text"] = "X"
         bclick = False
+        playerb = p2.get() + " Wins!"
