@@ -36,3 +36,4 @@ class LinkedList:
                 newNode = Node(data)
                 newNode.next = start.next
                 start.next = newNode
+                return
