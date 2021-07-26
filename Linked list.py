@@ -12,3 +12,4 @@ class LinkedList:
 
     def insertAtBeginning(self, data):
         # create a newnode with data
+        newnode = Node(data)
