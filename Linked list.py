@@ -23,3 +23,4 @@ class LinkedList:
         if self.node is None:
             self.node = newNode
             return
+        node = self.node
