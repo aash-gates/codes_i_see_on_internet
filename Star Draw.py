@@ -1,5 +1,7 @@
 col = ('yellow','red', 'green','orange','blue','white')
 
+t = turtle.Turtle()
+screen.bgcolor('black')
 t.speed(30)
 
 for i in range (350):
