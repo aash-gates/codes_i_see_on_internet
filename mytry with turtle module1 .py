@@ -21,3 +21,4 @@ for i in range(5):
     star.forward(144)
     
     star.right(144)
+    
