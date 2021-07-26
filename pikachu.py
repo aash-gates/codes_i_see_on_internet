@@ -368,3 +368,13 @@ class Pikachu:
         t.fd(5)
 
         # Fingers
+        self.noTrace_goto(166, 130)
+        t.seth(-90)
+        t.fd(3)
+        t.circle(-4, 180)
+        t.fd(3)
+        t.seth(-90)
+        t.fd(3)
+        t.circle(-4, 180)
+        t.fd(3)
+
