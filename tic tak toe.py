@@ -25,3 +25,4 @@ buttons = tk.StringVar()
 def disableButton():
     button1.configure(state="disabled")
     button2.configure(state="disabled")
+    button3.configure(state="disabled")
