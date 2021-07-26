@@ -10,3 +10,4 @@ class LinkedList:
             node = node.next
         return l
 
+    def insertAtBeginning(self, data):
