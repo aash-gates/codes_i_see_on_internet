@@ -8,3 +8,4 @@ area=(pi*radius^2)
 ____
 
 # Check your answer
+q1.check()
