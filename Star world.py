@@ -7,3 +7,4 @@ def pypart(n):
     print("\n".join(myList))
  
 # Driver Code
+n = 5
