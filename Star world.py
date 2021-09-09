@@ -6,3 +6,4 @@ def pypart(n):
         myList.append("*"*i)
     print("\n".join(myList))
  
+# Driver Code
